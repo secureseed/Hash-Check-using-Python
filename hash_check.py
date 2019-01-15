@@ -2,14 +2,16 @@
 '''
 Author: Arjun Bhardwaj
 Purpose:
-		This is a simple program that can enable a user to do the following at the moment:
-			1. Look up any string or a hash in their local repository of PDF files
-			2. Look up that hash on virus total and quickly get the results 
+	This is a simple program that can enable a user to do the following at the moment:
+		1. Look up any string or a hash in their local repository of PDF files
+		2. Look up that hash on virus total and quickly get the results 
 			
-		Some random Hash values to test the code:
-			e5fe9d3dd274d76fed1b9ae3f3ff83a46146771e
-			7657fcb7d772448a6d8504e4b20168b8
-		This program will be called from a .BAT file which will remove the need to manually run the code by opening command prompt	
+	Some random Hash values to test the code:
+		e5fe9d3dd274d76fed1b9ae3f3ff83a46146771e
+		7657fcb7d772448a6d8504e4b20168b8
+This program will be called from a .BAT file which will remove the need to manually run the code by opening command prompt	
+
+NOTE: Don't forget to change the folder directory. I have entered a mock directory path for your reference.
 '''
 import os
 import sys
