@@ -61,7 +61,7 @@ def jsonOutput(jsonData, sort=True, indents=4):
 			return None
 			
 def virusTotalCheck(uservalue):
-	user_api_key = '84783793d082d8ea1751e904c8b404e29ef8c54ec6677717275900c39910f82e'
+	user_api_key = 'enter you API key here before running this code'
 	user_hash = uservalue
 	params = {
     'apikey': user_api_key,
