@@ -49,6 +49,7 @@ def localHashCheck(uservalue):
 				print('Hash information not available in local documents')		
 
 def jsonOutput(jsonData, sort=True, indents=4):
+		#Enter the location where you want the JSON output
 		os.chdir('S:\\My_Scipts\\Hash_Check_python\\Output')
 		if type(jsonData) is str:
 			file = open('output.json','w')
