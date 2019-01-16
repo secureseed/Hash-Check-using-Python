@@ -6,3 +6,5 @@ This program is a small illustration as to how one can use python to search for 
   
 **Future notes:**
   The project will further incorporate hash verification from many other sites like virustotal.
+  
+  Detailed information about the script can be found at https://secure-seed.com/2019/01/16/automating-hash-check-using-python/
