@@ -94,7 +94,10 @@ def virusTotalCheck(uservalue):
 	
 
 def main():
-	os.chdir('S:\\My_Scipts\\Hash_Check_python\\reports')	
+	#Enter the folder name where your reports are kept in
+	os.chdir('S:\\My_Scipts\\Hash_Check_python\\reports')
+	#The above command will change the current directory to whatever you mention above. 
+	#The program will then continue executing there.
 	print("enter the Hash value you want to search for in the reports directory")
 	uservalue = str(input())
 	print('\n*******************************************************************\n')
